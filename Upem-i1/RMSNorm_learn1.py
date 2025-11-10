@@ -18,4 +18,5 @@ x = np.random.randn(2, 4)
 norm = RMSNorm(4)
 y = norm(x)
 print("输入：", x)
+
 print("输出：", y)
